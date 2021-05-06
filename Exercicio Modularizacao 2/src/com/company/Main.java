@@ -38,16 +38,16 @@ public class Main {
     }
 
     public static void calculo(double totalSalario, int totalFilhos, int cont){
-        //variaveis
-        double media = 0;
-
         //conta
-        media = totalSalario / cont;
+        double  media = totalSalario / cont;
 
         //saida
-        System.out.println("A cont: " + cont);
         System.out.println("A media salarial da populacao e: " + media);
         System.out.println("O numero de filhos e: " + totalFilhos);
     }
+
+
+
+
 
 }
