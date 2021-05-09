@@ -18,11 +18,11 @@ public class Main {
         System.out.println("Digite o N da formula");
         N = entrada.nextInt();
 
-        S  = Formula(N);
+        S  = Fatorial(N);
         System.out.println(S);
     }
 
-    public static int Formula(int N) {
+    public static int Fatorial(int N) {
 
         int num, valor;
         double S, fat;

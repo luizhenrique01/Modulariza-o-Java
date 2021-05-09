@@ -20,14 +20,14 @@ public class Main {
             N = entrada.nextInt();
 
             //funcao verificacao
-            verificacao = Verifica(N);
+            verificacao = EmaiorQueZero(N);
 
             //modulo saida
-            Saida(verificacao,N);
+            ImprimeResultado(verificacao,N);
         }
     }
 
-    public static boolean Verifica(int N){
+    public static boolean EmaiorQueZero(int N){
         int numeros = 0;
          numeros = N;
         if (numeros >=0){
@@ -37,8 +37,8 @@ public class Main {
         }
     }
 
-    public static void Saida(boolean verificacao, int N) {
-        if (verificacao){
+    public static void ImprimeResultado(boolean eMaiorQueZero, int N) {
+        if (eMaiorQueZero){
             System.out.println("O numero: " + N + " e positivo");
         } else {
             System.out.println("O numero: " + N + " e negativo");

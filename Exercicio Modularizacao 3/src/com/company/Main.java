@@ -43,17 +43,13 @@ public class Main {
         int terceiro;
         if (valor1 > valor2 && valor1 > valor3){
             primeiro = valor1;
-            System.out.println(primeiro);
+            System.out.println(valor1);
             if (valor2 > valor3){
-            segundo = valor2;
-            System.out.println(segundo);
-            terceiro = valor3;
-                System.out.println(terceiro);
+                 System.out.println(valor2);
+                System.out.println(valor3);
             }else{
-                segundo = valor3;
-                System.out.println(segundo);
-                terceiro = valor2;
-                System.out.println(terceiro);
+                System.out.println(valor3);
+                System.out.println(valor2);
             }
         } else if (valor2 > valor1 && valor2 > valor3){
             primeiro = valor2;

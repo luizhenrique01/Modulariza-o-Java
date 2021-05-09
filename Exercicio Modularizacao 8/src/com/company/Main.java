@@ -14,6 +14,10 @@ public class Main {
 
         //funcao
         S = Formula(N);
+        ImprimeResultado(S);
+    }
+
+    private static void ImprimeResultado(int S) {
         if (S > 0) {
             System.out.println("O valor de N na funcao e: " + S);
         }else{
