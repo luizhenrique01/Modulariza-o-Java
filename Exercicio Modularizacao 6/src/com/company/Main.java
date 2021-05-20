@@ -20,6 +20,7 @@ public class Main {
 
         S  = Fatorial(N);
         System.out.println(S);
+
     }
 
     public static int Fatorial(int N) {
